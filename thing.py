@@ -234,7 +234,7 @@ def hunt_fish_dig_response(response_dict):
             notification = Notify()
             notification.title = "THING HAPPENING"
             notification.message = "NEED HELP DRAGON OR FISH OR SOMETHING"
-            notification.audio = "/Users/dyc/Downloads/notif_sound.wav"
+            notification.audio = ""
             notification.send()
     except Exception as e:
         print("Encountered exception during fish or dig:", e)
